@@ -25,13 +25,13 @@ The dashboard looks at employee data across departments, job roles, work modes, 
 
 The first page gives an overall view of the workforce, including employee count, active and exited employees, attrition rate, average salary and employee distribution.
 
-![HR Analytics Dashboard](HR-Analytics-Dashboard.png)
+![HR Overview](HR%20Overview.png)
 
 ### Attrition Analysis
 
 The second page focuses specifically on employee attrition across job roles, departments, work modes, experience and education, along with employee exit trends.
 
-![Attrition Analysis](Attrition-Analysis.png)
+![Attrition Analysis](Attrition%20Analysis.png)
 
 ## Some Key Findings
 
