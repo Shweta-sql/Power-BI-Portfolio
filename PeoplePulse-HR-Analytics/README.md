@@ -1,72 +1,47 @@
-# PeoplePulse | HR Analytics & Attrition Dashboard
+# PeoplePulse | HR Analytics Dashboard
 
-## 📊 Project Overview
+## About the Project
 
-PeoplePulse is an interactive HR Analytics dashboard built in Power BI to analyze workforce composition, employee attrition, salary patterns, work modes, experience levels, education, departments, and employee exit trends.
+I built PeoplePulse as an HR analytics project in Power BI to understand employee attrition and workforce patterns.
 
-The dashboard provides HR stakeholders with a consolidated view of workforce health and helps identify areas with higher employee attrition.
+The dashboard looks at employee data across departments, job roles, work modes, experience levels, education and exit trends. I wanted the report to make it easy to see where attrition is higher and which employee groups may need more attention.
 
-## 🎯 Business Objective
+## What I Worked On
 
-To analyze employee demographics and attrition patterns, identify high-risk roles and departments, and provide insights that can support employee retention and workforce planning.
+- Cleaned and transformed the data using Power Query
+- Created DAX measures for KPIs and attrition analysis
+- Built an interactive two-page Power BI dashboard
+- Added slicers for Department and Work Mode
+- Analysed attrition across different employee groups
+- Designed the dashboard with a focus on readability and easy comparison
 
-## 🛠️ Tools & Skills
+## Tools Used
 
-- Power BI
-- Power Query
-- DAX
-- Data Cleaning & Transformation
-- Data Modeling
-- KPI Development
-- Data Visualization
-- Interactive Slicers
-- Business Analysis
+**Power BI | Power Query | DAX**
 
-## 📌 Dashboard Pages
+## Dashboard
 
-### 1. HR Analytics Overview
+### HR Overview
 
-The overview page provides a high-level view of the workforce through key KPIs and employee distribution analysis.
-
-**Key metrics:**
-- Total Employees: 5,000
-- Active Employees: 4,608
-- Exited Employees: 392
-- Overall Attrition Rate: 7.84%
-- Average Salary: ₹9,87,451
-
-It also analyzes employee distribution by department, city, work mode, and department-level attrition.
+The first page gives an overall view of the workforce, including employee count, active and exited employees, attrition rate, average salary and employee distribution.
 
 ![HR Analytics Dashboard](HR-Analytics-Dashboard.png)
 
-### 2. Attrition Analysis
+### Attrition Analysis
 
-The attrition analysis page provides a deeper analysis of employee exits across different workforce dimensions.
-
-**Analysis includes:**
-- Attrition by Job Role
-- Attrition by Work Mode
-- Exited Employees by Department
-- Attrition by Experience
-- Attrition by Education
-- Employee Exit Trends by Month
-- Interactive Department and Work Mode filters
+The second page focuses specifically on employee attrition across job roles, departments, work modes, experience and education, along with employee exit trends.
 
 ![Attrition Analysis](Attrition-Analysis.png)
 
-## 💡 Key Business Insights
+## Some Key Findings
 
-- Overall employee attrition stands at **7.84%**, with **392 employees exited out of 5,000**.
-- **Support Manager** has the highest job-role attrition at **10.4%**, followed by Senior Support Executive at **9.5%**.
-- **Finance** records the highest departmental attrition at **10.4%**, while HR has the lowest at **3.8%**.
-- Attrition increases from **6.0% among employees with 0–4 years of experience to 9.2% among employees with 20+ years**.
-- **Hybrid employees show the highest observed attrition rate at 8.4%**, compared with 7.8% for Remote and 7.3% for Office employees.
+- Overall attrition is **7.84%**, with **392 employees exited out of 5,000**.
+- **Support Manager** has the highest attrition rate among job roles at **10.4%**.
+- **Finance** has the highest departmental attrition at **10.4%**.
+- Attrition is **6.0% for employees with 0–4 years of experience** and rises to **9.2% for employees with 20+ years**.
+- Among work modes, **Hybrid** has the highest observed attrition rate at **8.4%**.
 
-## 📈 Business Value
+## What I Learned
 
-The dashboard enables HR stakeholders to quickly identify attrition hotspots across departments, job roles, work modes, and experience groups, supporting more focused retention strategies and workforce planning.
-
-## 🔍 Project Workflow
-
-**Data → Cleaning → Transformation → Data Modeling → DAX → Dashboard → Insights**
+This project helped me practice working through the complete Power BI workflow — from cleaning the raw data and creating measures to designing the dashboard and turning the analysis into useful business insights.
 
